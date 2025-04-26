@@ -1,0 +1,38 @@
+{
+    "welcome": "Bem-vindo",
+    "dashboard": "Painel de Controle",
+    "login": {
+      "title": "Faça login na sua conta",
+      "email": "Endereço de Email",
+      "password": "Senha",
+      "submit": "Entrar"
+    },
+    "sales": "Vendas",
+    "Sales": "Vendas",
+    "welcome_back": "Bem-vindo de volta",
+    "Add": "Adicionar",
+
+    "__Menu__": "__Menu__",
+    "Users": "Usuários",
+    "Orders": "Pedidos",
+    "Customers": "Clientes",
+    "Products": "Produtos",
+    "Product categories": "Categorias de produto",
+    "Settings": "Configurações",
+    "Home": "Principal",
+
+    "__Usuários__": "__Usuários__",
+    "First Name": "Primeiro Nome",
+    "User": "Usuário",
+    "Users List": "Lista de usuários",
+
+    "__Clientes__": "__Clientes__",
+    "Create new customer": "Criar novo cliente",
+    "Customers List": "Lista de clientes",
+
+    "__Reports__": "__Reports__",
+    "Reports List": "Lista de relatórios",
+    "Report": "Relatório",
+    "Reports": "Relatórios",
+  }
+  

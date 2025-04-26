@@ -1,0 +1,17 @@
+services:
+  l8ser-front:
+    image: l8ser-front:1.0.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: l8ser-front
+    hostname: l8ser-front
+    restart: always
+    ports:
+      - "3000:3000"
+    tty: true
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=development
+      - COMPATIBILITY_DATE=2025-04-09
