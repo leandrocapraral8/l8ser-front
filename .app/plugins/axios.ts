@@ -7,7 +7,8 @@ export default defineNuxtPlugin((nuxtApp) => {
   const router = useRouter()
 
   const axiosInstance = axios.create({
-    baseURL: 'http://10.61.61.201:8006',
+    // baseURL: 'http://10.61.61.201:8006',
+    baseURL: 'http://localhost:8006',
   })
 
   // Interceptador para adicionar o token JWT
