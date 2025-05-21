@@ -225,7 +225,7 @@ function statusColor(itemStatus: string) {
                   <span class="font-semibold">{{ item.customer.name }}</span>
                 </TairoTableCell>
                 <TairoTableCell spaced>
-                  {{ item.month }}
+                  {{ item.month_and_year }}
                 </TairoTableCell>
                 <TairoTableCell spaced>
                   {{ item.user.first_name }} {{ item.user.last_name }}
