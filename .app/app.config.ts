@@ -59,9 +59,9 @@ export default defineAppConfig({
             to: '/reports',
           },
           {
-            name: 'Communication',
+            name: 'Communications',
             icon: { name: 'ph:file-text', class: 'w-5 h-5' },
-            to: '/communication',
+            to: '/communications',
           },
           // {
           //   name: 'Documentation',

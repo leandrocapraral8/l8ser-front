@@ -16,7 +16,7 @@ definePageMeta({
 
 const route = useRoute()
 const router = useRouter()
-const reportId = route.params.id
+const reportId: string = route.params.id as string
 const reportData = ref(null)
 const ticketsPorPrioridade = ref(null)
 const ticketsPorAtendente = ref(null)
@@ -342,7 +342,7 @@ function useHorizontalBarChart(checkpoint_info) {
               </div>
 
               <!-- Harmony -->
-              <div class="border-muted-200 dark:border-muted-700 border-b py-8">
+              <div v-if="reportData.harmony_info" class="border-muted-200 dark:border-muted-700 border-b py-8">
                 <div class="mb-8 flex items-center gap-2">
                   <h4
                     class="text-muted-400 font-sans text-xs font-semibold uppercase"
@@ -387,7 +387,7 @@ function useHorizontalBarChart(checkpoint_info) {
                 </div> -->
               </div>
               <!-- Zabbix -->
-              <div class="py-8">
+              <div v-if="reportData.zabbix_info" class="border-muted-200 dark:border-muted-700 border-b py-8">
                 <div class="mb-8 flex items-center gap-2">
                   <h4
                     class="text-muted-400 font-sans text-xs font-semibold uppercase"
